@@ -122,7 +122,7 @@ app.post('/books/remove/:id', (req, res) => {
 const conn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'mesquita',
+    password: '',
     database: 'nodemysql1'
 });
 
